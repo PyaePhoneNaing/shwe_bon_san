@@ -15,7 +15,7 @@ const Hero = () => {
               ရွှေဘုံစံ ပရင့်ဇက်(စ်)
             </h1>
             <h2 className="english-text hero-subtitle">
-              Shwe Bon San Princess Gems & Jewelry
+              Shwe Bon San Princess Gems & Jewelry House
             </h2>
             <p className="myanmar-text hero-description">
               အရည်အသွေးမှီ ရွှေ၊ ငွေ၊ စိန်နှင့် ကျောက်မျက်ရတနာများဖြင့်

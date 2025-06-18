@@ -25,6 +25,7 @@ const Products = () => {
     "/sbs_products_17.jpg",
     "/sbs_products_18.jpg",
     "/sbs_products_19.jpg",
+    "/sbs_products_20.jpg",
   ];
 
   // Duplicate for seamless looping

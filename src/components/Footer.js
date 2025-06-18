@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
             <p className="myanmar-text footer-description">
               မြန်မာနိုင်ငံ၏ အရည်အသွေးမြင့် လက်ဝတ်ရတနာများကို
-              သင့်တင်မျှတသောစျေးနုန်းဖြင့် ရရှိနိုင်သော ယုံကြည်စိတ်ချရသော ဆိုင်
+              သင့်တင်မျှတသောစျေးနှုန်းဖြင့် ရရှိနိုင်သော ယုံကြည်စိတ်ချရသော ဆိုင်
             </p>
             <div className="footer-social">
               <a href="#" className="social-icon">
@@ -109,7 +109,7 @@ const Footer = () => {
               </p>
               <p>
                 <span className="contact-icon">✉️</span>
-                info@shwebonesan.com
+                hninayesan16@gmail.com
               </p>
               <p className="myanmar-text">
                 <span className="contact-icon">🕒</span>

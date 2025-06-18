@@ -77,8 +77,7 @@ const Contact = () => {
               <div className="contact-icon">✉️</div>
               <div className="contact-details">
                 <h4 className="myanmar-text-bold">အီးမေးလ်</h4>
-                <p>info@shwebonesan.com</p>
-                <p>sales@shwebonesan.com</p>
+                <p>hninayesan16@gmail.com</p>
               </div>
             </div>
 
@@ -87,14 +86,14 @@ const Contact = () => {
               <div className="contact-details">
                 <h4 className="myanmar-text-bold">ဖွင့်ချိန်</h4>
                 <p className="myanmar-text">
-                  တနင်္လာ - စနေ: နံနက် ၉ နာရီ - ညနေ ၇ နာရီ
+                  အင်္ဂါ - စနေ: နံနက် ၉ နာရီ - ညနေ ၇ နာရီ
                   <br />
-                  တနင်္ဂနွေ: နံနက် ၁၀ နာရီ - ညနေ ၅ နာရီ
+                  တနင်္လာနေ့တိုင်းဆိုင်ပိတ်သည်
                 </p>
                 <p className="english-text">
-                  Mon - Sat: 9:00 AM - 7:00 PM
+                  Tuesday - Saturday: 9:00 AM - 7:00 PM
                   <br />
-                  Sunday: 10:00 AM - 5:00 PM
+                  Closed on every Monday
                 </p>
               </div>
             </div>
