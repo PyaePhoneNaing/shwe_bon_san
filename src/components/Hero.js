@@ -12,12 +12,14 @@ const Hero = () => {
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="myanmar-text-bold hero-title">
-              ရွှေဘုံစံ လက်ဝတ်ရတနာ
+              ရွှေဘုံစံ ပရင့်ဇက်(စ်)
             </h1>
-            <h2 className="english-text hero-subtitle">Shwe Bon San Jewelry</h2>
+            <h2 className="english-text hero-subtitle">
+              Shwe Bon San Princess Gems & Jewelry
+            </h2>
             <p className="myanmar-text hero-description">
-              အရည်အသွေးမြင့် ရွှေ၊ ငွေ၊ စိန်နှင့် ကျောက်မျက်ရတနာများဖြင့်
-              ပြုလုပ်ထားသော လက်ဝတ်ရတနာများကို တရားဝင်စျေးနှုန်းဖြင့်
+              အရည်အသွေးမှီ ရွှေ၊ ငွေ၊ စိန်နှင့် ကျောက်မျက်ရတနာများဖြင့်
+              ပြုလုပ်ထားသော လက်ဝတ်ရတနာများကို သင့်တင်မျှတသောစျေးနှုန်းဖြင့်
               ရရှိနိုင်ပါသည်။
             </p>
             <p className="english-text hero-description-en">
@@ -25,19 +27,25 @@ const Hero = () => {
               diamonds and precious stones at honest prices.
             </p>
             <div className="hero-buttons">
-              <button className="btn btn-primary myanmar-text-medium">
+              <a
+                href="#products"
+                className="btn btn-primary myanmar-text-medium"
+              >
                 ထုတ်ကုန်များကြည့်ရှုရန်
-              </button>
-              <button className="btn btn-secondary myanmar-text-medium">
+              </a>
+              <a
+                href="#contact"
+                className="btn btn-secondary myanmar-text-medium"
+              >
                 ဆက်သွယ်ရန်
-              </button>
+              </a>
             </div>
           </div>
 
           <div className="hero-image">
             <img
               src={`${process.env.PUBLIC_URL}/sbs_logo.jpg`}
-              alt="Shwe Bon San Logo"
+              alt="Shwe Bon San Princess Logo"
               className="hero-photo"
             />
           </div>

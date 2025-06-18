@@ -11,11 +11,11 @@ const Footer = () => {
           <div className="footer-section">
             <div className="footer-logo">
               <h3 className="myanmar-text-bold">ရွှေဘုံစံ</h3>
-              <p className="english-text">Shwe Bon San Jewelry</p>
+              <p className="english-text">Shwe Bon San Princess Jewelry</p>
             </div>
             <p className="myanmar-text footer-description">
               မြန်မာနိုင်ငံ၏ အရည်အသွေးမြင့် လက်ဝတ်ရတနာများကို
-              ရိုးသားသောစျေးနှုန်းဖြင့် ရရှိနိုင်သော ယုံကြည်စိတ်ချရသော ဆိုင်
+              သင့်တင်မျှတသောစျေးနုန်းဖြင့် ရရှိနိုင်သော ယုံကြည်စိတ်ချရသော ဆိုင်
             </p>
             <div className="footer-social">
               <a href="#" className="social-icon">
@@ -68,27 +68,27 @@ const Footer = () => {
             <h4 className="myanmar-text-bold">ထုတ်ကုန်များ</h4>
             <ul className="footer-links">
               <li>
-                <a href="#" className="myanmar-text">
+                <a href="#products" className="myanmar-text">
                   ရွှေလက်ကောက်များ
                 </a>
               </li>
               <li>
-                <a href="#" className="myanmar-text">
+                <a href="#products" className="myanmar-text">
                   စိန်လက်စွပ်များ
                 </a>
               </li>
               <li>
-                <a href="#" className="myanmar-text">
+                <a href="#products" className="myanmar-text">
                   ရွှေလည်ကြိုးများ
                 </a>
               </li>
               <li>
-                <a href="#" className="myanmar-text">
+                <a href="#products" className="myanmar-text">
                   နားကပ်များ
                 </a>
               </li>
               <li>
-                <a href="#" className="myanmar-text">
+                <a href="#products" className="myanmar-text">
                   လက်ဝတ်ရတနာ စုံလင်
                 </a>
               </li>
@@ -100,11 +100,12 @@ const Footer = () => {
             <div className="footer-contact">
               <p className="myanmar-text">
                 <span className="contact-icon">📍</span>
-                အမှတ် (၁၄၂/၁၅၄)၊ ဦးချစ်မောင်လမ်း၊ ဗဟန်မြို့နယ်
+                အမှတ် (၁၅၁)၊ တင့်ဆန်းလမ်းနှင့် အနောက်ဗဟိုလမ်းကြား၊
+                ဦးချစ်မောင်လမ်းမကြီးပေါ်၊ ဗဟန်းမြို့နယ်၊ ရန်ကုန်မြို့
               </p>
               <p>
                 <span className="contact-icon">📞</span>
-                09 453 774 579
+                09 890 555 667
               </p>
               <p>
                 <span className="contact-icon">✉️</span>
@@ -125,7 +126,8 @@ const Footer = () => {
               ရယူထားပါသည်။
             </p>
             <p className="english-text">
-              © {currentYear} Shwe Bon San Jewelry. All rights reserved.
+              © {currentYear} Shwe Bon San Princess Jewelry. All rights
+              reserved.
             </p>
             <div className="footer-bottom-links">
               <a href="#" className="myanmar-text">

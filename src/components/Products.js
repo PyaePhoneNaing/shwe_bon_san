@@ -4,116 +4,47 @@ import "./Products.css";
 const Products = () => {
   const [isPaused, setIsPaused] = useState(false);
 
-  // Product data with images
-  const productCategories = [
-    {
-      id: 1,
-      title: "ရွှေလက်ကောက်များ",
-      englishTitle: "Gold Bracelets",
-      description: "မြန်မာပုံစံ ရွှေလက်ကောက်များ",
-      icon: "📿",
-      image: "/sbs_products_1.jpg",
-    },
-    {
-      id: 2,
-      title: "စိန်လက်စွပ်များ",
-      englishTitle: "Diamond Rings",
-      description: "အရည်အသွေးမြင့် စိန်လက်စွပ်များ",
-      icon: "💍",
-      image: "/sbs_products_2.jpg",
-    },
-    {
-      id: 3,
-      title: "ရွှေလည်ကြိုးများ",
-      englishTitle: "Gold Necklaces",
-      description: "ခေတ်မီ ရွှေလည်ကြိုးများ",
-      icon: "📿",
-      image: "/sbs_products_3.jpg",
-    },
-    {
-      id: 4,
-      title: "နားကပ်များ",
-      englishTitle: "Earrings",
-      description: "လှပသော နားကပ်များ",
-      icon: "👂",
-      image: "/sbs_products_1.jpg",
-    },
-    {
-      id: 5,
-      title: "လက်ဝတ်ရတနာ စုံလင်",
-      englishTitle: "Jewelry Sets",
-      description: "မွေးလာဘွားအတွက် လက်ဝတ်ရတနာစုံများ",
-      icon: "💎",
-      image: "/sbs_products_2.jpg",
-    },
-    {
-      id: 6,
-      title: "အမျိုးသား လက်ဝတ်ရတနာ",
-      englishTitle: "Men's Jewelry",
-      description: "အမျိုးသားများအတွက် လက်ဝတ်ရတနာများ",
-      icon: "⌚",
-      image: "/sbs_products_3.jpg",
-    },
+  // Product images
+  const productImages = [
+    "/sbs_products_1.jpg",
+    "/sbs_products_2.jpg",
+    "/sbs_products_3.jpg",
+    "/sbs_products_4.jpg",
+    "/sbs_products_5.jpg",
+    "/sbs_products_6.jpg",
+    "/sbs_products_7.jpg",
+    "/sbs_products_8.jpg",
+    "/sbs_products_9.jpg",
+    "/sbs_products_10.jpg",
+    "/sbs_products_11.jpg",
+    "/sbs_products_12.jpg",
+    "/sbs_products_13.jpg",
+    "/sbs_products_14.jpg",
+    "/sbs_products_15.jpg",
+    "/sbs_products_16.jpg",
+    "/sbs_products_17.jpg",
+    "/sbs_products_18.jpg",
+    "/sbs_products_19.jpg",
   ];
 
-  // Duplicate the array for seamless looping
-  const duplicatedCategories = [...productCategories, ...productCategories];
+  // Duplicate for seamless looping
+  const duplicatedImages = [...productImages, ...productImages];
 
   return (
-    <section id="products" className="products section">
-      <div className="container">
-        <div className="section-title">
-          <h2 className="myanmar-text-bold">ကျွန်ုပ်တို့၏ ထုတ်ကုန်များ</h2>
-          <p className="english-text">Our Products</p>
-        </div>
-
-        <div
-          className={`products-slideshow ${isPaused ? "paused" : ""}`}
-          onMouseEnter={() => setIsPaused(true)}
-          onMouseLeave={() => setIsPaused(false)}
-        >
-          <div className="slideshow-container">
-            <div className="slides-wrapper looping">
-              {duplicatedCategories.map((product, index) => (
-                <div key={`${product.id}-${index}`} className="slide">
-                  <div className="product-card">
-                    <div className="product-image-container">
-                      <img
-                        src={product.image}
-                        alt={product.englishTitle}
-                        className="product-image"
-                      />
-                      <div className="product-icon-overlay">{product.icon}</div>
-                    </div>
-                    <div className="product-info">
-                      <h3 className="myanmar-text-bold">{product.title}</h3>
-                      <h4 className="english-text">{product.englishTitle}</h4>
-                      <p className="myanmar-text">{product.description}</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
+    <section id="products" className="products-slider-section">
+      <div
+        className={`products-slider ${isPaused ? "paused" : ""}`}
+        onMouseEnter={() => setIsPaused(true)}
+        onMouseLeave={() => setIsPaused(false)}
+      >
+        <div className="slider-row">
+          <div className="slider-track">
+            {duplicatedImages.map((img, idx) => (
+              <div className="slider-image-wrapper" key={idx}>
+                <img src={img} alt="Product" className="slider-image" />
+              </div>
+            ))}
           </div>
-        </div>
-
-        <div className="products-grid">
-          {productCategories.map((product) => (
-            <div key={product.id} className="product-grid-item">
-              <div className="product-icon-large">{product.icon}</div>
-              <h4 className="myanmar-text-medium">{product.title}</h4>
-              <p className="english-text">{product.englishTitle}</p>
-            </div>
-          ))}
-        </div>
-
-        <div className="products-cta">
-          <p className="myanmar-text">
-            ပိုမိုသိရှိလိုပါက ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပါ
-          </p>
-          <button className="btn btn-primary myanmar-text-medium">
-            ဆက်သွယ်ရန်
-          </button>
         </div>
       </div>
     </section>

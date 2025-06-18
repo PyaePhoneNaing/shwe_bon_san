@@ -31,8 +31,8 @@ const Header = () => {
       <div className="container">
         <div className="header-content">
           <div className="logo">
-            <h1 className="myanmar-text-bold">ရွှေဘုံစံ</h1>
-            <span className="english-text">Shwe Bon San</span>
+            <h1 className="myanmar-text-bold">ရွှေဘုံစံ ပရင့်ဇက်(စ်)</h1>
+            <span className="english-text">Shwe Bon San Princess</span>
           </div>
 
           <nav className={`nav ${isMenuOpen ? "nav-open" : ""}`}>

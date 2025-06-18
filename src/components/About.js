@@ -7,7 +7,7 @@ const About = () => {
       <div className="container">
         <div className="section-title">
           <h2 className="myanmar-text-bold">ရွှေဘုံစံ အကြောင်း</h2>
-          <p className="english-text">About Shwe Bon San</p>
+          <p className="english-text">About Shwe Bon San Princess</p>
         </div>
 
         <div className="about-content">
@@ -19,7 +19,9 @@ const About = () => {
                 လက်ရာမြတ်များကို ခေတ်မီအလှအပနှင့် ပေါင်းစပ်ကာ
                 ထုတ်လုပ်လျက်ရှိပါသည်။ ကျွန်ုပ်တို့သည် အရည်အသွေးမြင့် ရွှေ၊ ငွေ၊
                 စိန်နှင့် ကျောက်မျက်ရတနာများဖြင့် လက်ဝတ်ရတနာများကို
-                ပညာရှင်လက်မှုသမားများ၏ လက်ရာဖြင့် ပြုလုပ်ပါသည်။
+                3Dမိုလောင်းပြီး ဝါရင့်ပန်းတိမ်ဆရာကြီးများ၏လက်ရာဖြင့်
+                ပြုလုပ်ပါသည်။
+                လက်ပန်းတိမ်ရောစက်ပန်းတိမ်ရောထုတ်လုပ်ထားသည့်ပစ္စည်းများဖြစ်ပါသည်။
               </p>
             </div>
 
@@ -53,7 +55,7 @@ const About = () => {
                   <div className="value-icon">🤝</div>
                   <h4 className="myanmar-text-medium">တရားမျှတမှု</h4>
                   <p className="myanmar-text">
-                    ရိုးသားသောစျေးနှုန်းနှင့် ယုံကြည်စိတ်ချရသောဝန်ဆောင်မှု
+                    ပစ္စည်းမှန်စျေးမှန်နဲ့ခေတ်မှီအရည်အသွေးများကိုသာရောင်းချပါသည်
                   </p>
                 </div>
               </div>
@@ -63,7 +65,7 @@ const About = () => {
           <div className="about-image">
             <img
               src="/sbs_1.jpg"
-              alt="Shwe Bon San Jewelry Shop"
+              alt="Shwe Bon San Princess Jewelry Shop"
               className="about-photo"
             />
           </div>
@@ -71,7 +73,7 @@ const About = () => {
 
         <div className="about-stats">
           <div className="stat-item">
-            <div className="stat-number">15+</div>
+            <div className="stat-number">20+</div>
             <div className="stat-label myanmar-text">နှစ်အတွေ့အကြုံ</div>
           </div>
           <div className="stat-item">
@@ -79,12 +81,12 @@ const About = () => {
             <div className="stat-label myanmar-text">ကျေနပ်သောဖောက်သည်များ</div>
           </div>
           <div className="stat-item">
-            <div className="stat-number">500+</div>
+            <div className="stat-number">1000+</div>
             <div className="stat-label myanmar-text">လက်ဝတ်ရတနာ မျိုးစုံ</div>
           </div>
           <div className="stat-item">
             <div className="stat-number">24/7</div>
-            <div className="stat-label myanmar-text">ဝန်ဆောင်မှုအပေါ်အထား</div>
+            <div className="stat-label myanmar-text">ဝန်ဆောင်မှု</div>
           </div>
         </div>
       </div>

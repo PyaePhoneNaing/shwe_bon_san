@@ -1,4 +1,4 @@
-# ရွှေဗုံးစံ လက်ဝတ်ရတနာ - Shwe Bone San Jewelry Website
+# ရွှေဗုံးစံ လက်ဝတ်ရတနာ - Shwe Bon San Princess Jewelry Website
 
 A beautiful, responsive React website for a Myanmar jewelry shop featuring gold, red, and white color scheme with Myanmar (Burmese) text support.
 
@@ -23,7 +23,7 @@ A beautiful, responsive React website for a Myanmar jewelry shop featuring gold,
 
 1. **Header**: Navigation with smooth scrolling
 2. **Hero Section**: Welcome message with brand introduction
-3. **About Shwe Bone San**: Company story and values
+3. **About Shwe Bon San**: Company story and values
 4. **Products**: Animated slideshow of jewelry categories
 5. **Video Section**: Placeholder for promotional videos
 6. **Contact Us**: Contact form and business information
@@ -155,4 +155,4 @@ For any questions or modifications needed, the code is well-documented and follo
 
 ---
 
-**Built with ❤️ for Shwe Bone San Jewelry**
+**Built with ❤️ for Shwe Bon San Princess Jewelry**

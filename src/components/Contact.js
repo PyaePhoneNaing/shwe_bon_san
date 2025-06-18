@@ -20,7 +20,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Form submission logic will be implemented later
-    alert("ကျေးးဇူးတင်ပါသည်! ကျွန်ုပ်တို့ မကာမီ ပြန်လည်ဆက်သွယ်ပါမည်။");
+    alert("ကျေးးဇူးတင်ပါသည်! ကျွန်ုပ်တို့ မကြာမီ ပြန်လည်ဆက်သွယ်ပါမည်။");
     console.log("Form submitted:", formData);
   };
 
@@ -39,16 +39,16 @@ const Contact = () => {
               <div className="contact-details">
                 <h4 className="myanmar-text-bold">လိပ်စာ</h4>
                 <p className="myanmar-text">
-                  အမှတ် (၁၄၂/၁၅၄)၊ ကော့တာလစ်ဇေးကွေးဘတ်စ်ကား
+                  အမှတ် (၁၅၁)၊ တင့်ဆန်းလမ်းနှင့် အနောက်ဗဟိုလမ်းကြား
                   <br />
-                  ရပ်နား၊ ၁လွှာ၊ ဦးချစ်မောင်လမ်း၊
+                  ဦးချစ်မောင်လမ်းမကြီးပေါ်၊
                   <br />
-                  ဗဟန်မြို့နယ်၊ ရန်ကုန်မြို့
+                  ဗဟန်းမြို့နယ်၊ ရန်ကုန်မြို့
                 </p>
                 <p className="english-text">
-                  No. (142/154), Gottalit Zay Kway Bus Stop,
+                  No. (151), Between Tint San Road and West Central Road,
                   <br />
-                  1st floor, U Chit Maung Road,
+                  On U Chit Maung Road,
                   <br />
                   Bahan Tsp, Yangon
                 </p>
@@ -67,9 +67,8 @@ const Contact = () => {
               <div className="contact-icon">📞</div>
               <div className="contact-details">
                 <h4 className="myanmar-text-bold">ဖုန်းနံပါတ်</h4>
-                <p className="myanmar-text">09 453 774 579</p>
-                <p className="myanmar-text">09 555 6667</p>
-                <p className="myanmar-text">09 895 556 667</p>
+                <p className="myanmar-text">09 890 555 667</p>
+                <p className="myanmar-text">09 890 555 677</p>
                 <p className="english-text">Available 9 AM - 7 PM</p>
               </div>
             </div>

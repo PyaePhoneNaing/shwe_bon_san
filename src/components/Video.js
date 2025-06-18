@@ -11,72 +11,19 @@ const Video = () => {
         </div>
 
         <div className="video-content">
-          <div className="main-video">
-            <div className="video-placeholder">
-              <div className="play-button">
-                <div className="play-icon">▶</div>
-              </div>
-              <div className="video-overlay">
-                <h3 className="myanmar-text-bold">
-                  ရွှေဘုံစံ လက်ဝတ်ရတနာ မိတ်ဆက်ဗီဒီယို
-                </h3>
-                <p className="english-text">
-                  Shwe Bon San Jewelry Introduction Video
-                </p>
-                <p className="myanmar-text">ဗီဒီယို မကြာမီ ထည့်သွင်းပါမည်</p>
-                <p className="english-text">Video coming soon</p>
-              </div>
-            </div>
-          </div>
-
           <div className="video-grid">
-            <div className="video-item">
-              <div className="video-thumbnail">
-                <div className="thumbnail-icon">🎥</div>
-                <div className="play-overlay">▶</div>
+            {[1, 2, 3, 4, 5].map((num) => (
+              <div className="video-item" key={num}>
+                <video className="video-element" controls>
+                  <source src={`/sbs_vd_${num}.mp4`} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
-              <div className="video-info">
-                <h4 className="myanmar-text-medium">လက်ဝတ်ရတနာ ပြုလုပ်ခြင်း</h4>
-                <p className="english-text">Jewelry Making Process</p>
-              </div>
-            </div>
-
-            <div className="video-item">
-              <div className="video-thumbnail">
-                <div className="thumbnail-icon">💍</div>
-                <div className="play-overlay">▶</div>
-              </div>
-              <div className="video-info">
-                <h4 className="myanmar-text-medium">ထုတ်ကုန်များ ပြသခြင်း</h4>
-                <p className="english-text">Product Showcase</p>
-              </div>
-            </div>
-
-            <div className="video-item">
-              <div className="video-thumbnail">
-                <div className="thumbnail-icon">👥</div>
-                <div className="play-overlay">▶</div>
-              </div>
-              <div className="video-info">
-                <h4 className="myanmar-text-medium">ဖောက်သည်များ၏ အမြင်</h4>
-                <p className="english-text">Customer Testimonials</p>
-              </div>
-            </div>
-
-            <div className="video-item">
-              <div className="video-thumbnail">
-                <div className="thumbnail-icon">🏪</div>
-                <div className="play-overlay">▶</div>
-              </div>
-              <div className="video-info">
-                <h4 className="myanmar-text-medium">ဆိုင်သွားလာခြင်း</h4>
-                <p className="english-text">Shop Tour</p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
 
-        <div className="video-description">
+        {/* <div className="video-description">
           <div className="description-content">
             <h3 className="myanmar-text-bold">ကျွန်ုပ်တို့၏ လုပ်ငန်းခွင်</h3>
             <p className="myanmar-text">
@@ -93,7 +40,7 @@ const Video = () => {
               the art of jewelry making.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
