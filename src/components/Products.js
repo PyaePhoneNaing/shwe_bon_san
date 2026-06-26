@@ -4,8 +4,8 @@ import "./Products.css";
 const Products = () => {
   const [isPaused, setIsPaused] = useState(false);
 
-  // Product images
-  const productImages = [
+  // Top row product images
+  const topRowImages = [
     "/sbs_products_1.jpg",
     "/sbs_products_2.jpg",
     "/sbs_products_3.jpg",
@@ -24,12 +24,32 @@ const Products = () => {
     "/sbs_products_16.jpg",
     "/sbs_products_17.jpg",
     "/sbs_products_18.jpg",
+  ];
+
+  // Bottom row product images
+  const bottomRowImages = [
     "/sbs_products_19.jpg",
     "/sbs_products_20.jpg",
+    "/sbs_products_21.jpg",
+    "/sbs_products_22.jpg",
+    "/sbs_products_23.jpg",
+    "/sbs_products_24.jpg",
+    "/sbs_products_25.jpg",
+    "/sbs_products_26.jpg",
+    "/sbs_products_27.jpg",
+    "/sbs_products_28.jpg",
+    "/sbs_products_29.jpg",
+    "/sbs_products_30.jpg",
+    "/sbs_products_31.jpg",
+    "/sbs_products_32.jpg",
+    "/sbs_products_33.jpg",
+    "/sbs_products_34.jpg",
+    "/sbs_products_35.jpg",
   ];
 
   // Duplicate for seamless looping
-  const duplicatedImages = [...productImages, ...productImages];
+  const duplicatedTopImages = [...topRowImages, ...topRowImages];
+  const duplicatedBottomImages = [...bottomRowImages, ...bottomRowImages];
 
   return (
     <section id="products" className="products-slider-section">
@@ -40,7 +60,16 @@ const Products = () => {
       >
         <div className="slider-row">
           <div className="slider-track">
-            {duplicatedImages.map((img, idx) => (
+            {duplicatedTopImages.map((img, idx) => (
+              <div className="slider-image-wrapper" key={idx}>
+                <img src={img} alt="Product" className="slider-image" />
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="slider-row">
+          <div className="slider-track">
+            {duplicatedBottomImages.map((img, idx) => (
               <div className="slider-image-wrapper" key={idx}>
                 <img src={img} alt="Product" className="slider-image" />
               </div>
